@@ -13,7 +13,7 @@ services:
       - backend
 
   db:
-    container_name: db
+    container_name: uts
     image: mysql
     restart: always
     environment:
