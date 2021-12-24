@@ -2,7 +2,7 @@ version: '3.8'
 services:
   php-apache-environment:
     image: uminur/uas
-    container_name: php-apache
+    container_name: php-apache2
     depends_on:
       - db
     volumes:
